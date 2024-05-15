@@ -9,7 +9,9 @@ import Pier from '../assets/pier2.jpg';
 import Leader1 from '../assets/leader1.jpg';
 import Leader2 from '../assets/leader2.jpg';
 import Leader3 from '../assets/leader3.jpg';
-import Leader4 from '../assets/leader4.jpg';
+// import Leader4 from '../assets/leader4.jpg';
+import Leader4 from '../assets/IMG_4742.png';
+import Leader6 from '../assets/IMG_4721.png';
 import Leader5 from '../assets/Jonash.jpg';
 import '../styles/styles.css'
 
@@ -56,7 +58,7 @@ const Section = () => {
           </Grid>
         </Grid>
         <Grid container md={12} sm={12} xs={12} mb={8}>
-          <Grid item lg={3} md={4} sm={12} xs={12} mr={{ md: 2, sm: 0, xs: 0 }} height={isSmScreen ? '500px' : '350px'} sx={{ backgroundImage: `url(${Default})`, backgroundSize: 'cover', backgroundPosition: 'top', borderRadius: '16px' }}></Grid>
+          <Grid item lg={3} md={4} sm={12} xs={12} mr={{ md: 2, sm: 0, xs: 0 }} height={isSmScreen ? '500px' : '350px'} sx={{ backgroundImage: `url(${Leader6})`, backgroundSize: 'cover', backgroundPosition: 'top', borderRadius: '16px' }}></Grid>
           <Grid item xs container direction="column" mt={2} justifyContent={'space-between'}>
             <Grid item xs>
               <Reveal>
@@ -64,20 +66,6 @@ const Section = () => {
                   <span style={{ fontSize: '3rem' }}>Marco Gregorio</span>
                 </div>
                 <Typography variant='h5' lineHeight={'0.8em'} mt={1}>COO & Vice President</Typography>
-                {/* <Typography variant='h5' fontWeight={'100'} lineHeight={'1.2em'} mt={3}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</Typography> */}
-              </Reveal>
-            </Grid>
-          </Grid>
-        </Grid>
-        <Grid container md={12} sm={12} xs={12} mb={8}>
-          <Grid item lg={3} md={4} sm={12} xs={12} mr={{ md: 2, sm: 0, xs: 0 }} height={isSmScreen ? '500px' : '350px'} sx={{ backgroundImage: `url(${Default})`, backgroundSize: 'cover', backgroundPosition: 'top', borderRadius: '16px' }}></Grid>
-          <Grid item xs container direction="column" mt={2} justifyContent={'space-between'}>
-            <Grid item xs>
-              <Reveal>
-                <div style={{ backgroundColor: '#DF9146', paddingInline: '0.3em', paddingBlock: '0.1em', borderRadius: '8px', display: 'inline-block' }}>
-                  <span style={{ fontSize: '3rem' }}>Edgar Cook</span>
-                </div>
-                <Typography variant='h5' lineHeight={'0.8em'} mt={1}>Director</Typography>
                 {/* <Typography variant='h5' fontWeight={'100'} lineHeight={'1.2em'} mt={3}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</Typography> */}
               </Reveal>
             </Grid>
